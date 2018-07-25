@@ -1,0 +1,265 @@
+
+.span-area{text-align:center;margin-bottom: 100px;}
+    .title-span{font-weight:300;border:1px dotted gray;font-size:20px;border-left:none;border-right:none;}
+
+ .title-span::before{content:"(span.title-span)";}
+ .title-span::after{content:"(span.title-span)";}
+/******************Header********************************/ 
+.headertxt{
+    color: #fc9c12;
+     font-size: 20px;
+     font-weight: 500;
+     margin-top:40px;
+}
+ .branding{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     width: 100px;
+     display: inline-block;
+     float:left;
+}
+ .header-content{
+    width: calc(100% - 100px);
+     display: inline-block;
+    float:right;
+}
+/******************Header Navigation*********************/ 
+.saff-theme .navbar{
+    margin-bottom:0px;
+}
+ .saff-theme .navbar-default {
+     background-color: #fbb313;
+     border-color: #fbb313;
+     border-radius: 0px;
+     -webkit-box-shadow:0px 6px 4px -3px rgba(222,126,42,1);
+     -moz-box-shadow:0px 6px 4px -3px rgba(222,126,42,1);
+     box-shadow: 0px 6px 4px -3px rgba(222,126,42,1);
+     border-bottom: none;
+}
+.overlay {
+     height: 100%;
+     width: 100%;
+     display: none;
+     position: fixed;
+     z-index:999;
+     top: 0;
+     left: 0;
+     background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0, 0.95);
+}
+ .overlay-content {
+     position: relative;
+     top: 25%;
+     width: 100%;
+     text-align: center;
+     margin-top: 30px;
+}
+ .overlay a {
+     padding: 8px;
+     text-decoration: none;
+     font-size: 36px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+}
+ .overlay a:hover, .overlay a:focus {
+     color: #f1f1f1;
+}
+ .overlay .closebtn {
+     position: absolute;
+     top: 20px;
+     right: 45px;
+     font-size: 60px;
+}
+
+/******************Title**********************************/ 
+.title{
+    padding:20px 0px;
+}
+/******************Content Slider*************************/
+ .item-title{
+    color:#2f395c;
+    font-size:30px;
+}
+ .item-description{
+    font-size:17px;
+}
+ .item{
+     min-height:200px;
+     padding-left: 30px;
+     padding-right: 30px;
+}
+ .detail-item{
+    padding:40px 0px;
+}
+ .block.detail-item{
+    background-image: url("../images/background-arrow.jpg");
+     background-repeat: no-repeat;
+     background-position: left center;
+     padding-left: 50px;
+}
+ .item .block{
+     float: left;
+     min-height: 200px;
+     color:#000000;
+}
+.slider-title{
+     background: #2f395c;
+     color: #ffffff;
+     font-size:16px;
+     padding: 15px;
+     text-align: center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+ .slider-title p{
+    margin-bottom:0px;
+}
+ .slider-navigation{
+    min-height:50px;
+    border:1px solid #eeeeee;
+    background:#eeeeee;
+} 
+.block-image{
+    width:210px;
+     display: inline-block;
+    float:left;
+    text-align:center;
+}
+ .detail-item{
+    width: calc(100% - 210px);
+     display: inline-block;
+    float:right;
+}
+ .saff-theme .carousel-control.left,.saff-theme .carousel-control.right{
+    background-image:none;
+}
+ .saff-theme .carousel-indicators {
+     top:17px;
+}
+ body.saff-theme .left.carousel-control{
+    left:0px;
+}
+ body.saff-theme .right.carousel-control{
+    right:0px;
+}
+ body.saff-theme .carousel-control {
+    color:#2f395c;
+    top:0px !important;
+    width: 50px;
+    height: 50px;
+     background-color:#e8e8e8;
+    border: 1px solid #d4d4d4;
+}
+ body.saff-theme .carousel-control .glyphicon-chevron-left {
+    top:17px !important;
+    left: 20px;
+}
+ body.saff-theme .carousel-control .glyphicon-chevron-right{
+    top:17px !important;
+    right:20px;
+}
+ body.saff-theme .carousel-indicators .active{
+    background-color:#2f395c;
+}
+ body.saff-theme .carousel-indicators li{
+    background:#cccccc;
+    border:1px solid #cccccc;
+     margin-right:5px;
+}
+ body.saff-theme .carousel-indicators li.active{
+     margin-right:4px;
+}
+ body.saff-theme .carousel-outer{
+     width:100%;
+}
+ 
+ body.saff-theme .carousel{
+     position: relative;
+     background-color: whitesmoke;
+     -webkit-box-shadow: -2px 21px 59px -7px rgba(163,163,163,1);
+     -moz-box-shadow: -2px 21px 59px -7px rgba(163,163,163,1);
+     box-shadow: -2px 21px 59px -7px rgba(163,163,163,1);
+     border-bottom: 1px solid #cccccc;
+}
+ body.saff-theme .navbar-default .navbar-toggle {
+     border-color:#fc9c12;
+     background: linear-gradient(to bottom, #ffd63f 0%,#ef890b 50%);
+     border: none;
+     border-radius: 0px;
+}
+ body.saff-theme .navbar-default .navbar-toggle:hover {
+     background-color: #fc9c12;
+}
+
+ body.saff-theme .navbar-default .navbar-toggle .icon-bar {
+     background-color: #fff;
+}
+ a.header-nav-control {
+     font-size: 26px;
+     display: inline-block;
+     color: #ffffff;
+     width: 50px;
+     height: 53px;
+     text-align: center;
+     border-left: 1px solid #ef9007;
+     border-right: 1px solid #ef9007;
+     float: right;
+     background: linear-gradient(to bottom, #ffd63f 0%,#ef890b 50%);
+}
+ a.header-nav-control span{
+    top:30px;
+}
+ a.header-nav-control span {
+     top: 21%;
+}
+ .header-toogle .navbar-toggle{
+    margin-right:0px;
+     float:right;
+}
+ .header-toogle .navbar-toggle .icon-bar {
+     width: 28px;
+     height: 3px;
+}
+ .header-toogle .navbar-toggle {
+     padding:18px 20px;
+     margin-top:0px;
+     margin-bottom: 0px;
+}
+ .slide-section{
+     margin-bottom:200px;
+}
+
+/***********************Responsive Css*****************************/
+ @media screen and (max-height: 450px) {
+     .overlay a {
+        font-size: 20px
+    }
+     .overlay .closebtn {
+         font-size: 40px;
+         top: 15px;
+         right: 35px;
+    }
+}
+ @media (min-width: 768px){
+     body.saff-theme .navbar-toggle {
+         display:block;
+    }
+}
+ @media (min-width: 1200px){
+     body.saff-theme .container {
+        width: 1024px;
+    }
+}
+ @media screen and (max-width:600px){
+     .block-image {
+        width:100%;
+    }
+     .detail-item{
+        width:100%;
+        padding: 0px 0px;
+    }
+     .item .block {
+        min-height: 125px;
+    }
+}
